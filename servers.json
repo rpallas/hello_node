@@ -1,0 +1,24 @@
+{
+  "apps" : [
+    {
+      "name"        : "hello1",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "watch"       :  [
+        ".",
+        "../lib"
+      ],
+      "cwd"         : "hello1"
+    },
+    {
+      "name"        : "hello2",
+      "script"      : "service.js",
+      "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+      "watch"       :  [
+        ".",
+        "../lib"
+      ],
+      "cwd"         : "hello2"
+    }
+  ]
+ }
